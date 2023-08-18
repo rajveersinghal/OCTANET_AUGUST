@@ -1,0 +1,186 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.fir-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    color: white;
+    background-color: rgb(42, 42, 68);
+}
+
+.fir-nav .fir-left {
+    display: flex;
+    margin-top: 10px;
+}
+
+.fir-left img {
+    width: 22%;
+}
+
+.fir-left input {
+    margin-inline: 11px;
+    width: 420px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 2px;
+
+
+}
+
+.fir-nav .fir-right {
+    display: flex;
+    margin-top: 16px;
+}
+
+.fir-right p {
+    margin-inline: 22px;
+    font-size: 22px;
+
+}
+
+.fir-right button {
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(244, 59, 91);
+    color: white;
+
+}
+
+.fir-right i {
+    margin-inline: 22px;
+    font-size: 22px;
+}
+
+.sec-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 9px;
+    background-color: rgba(26, 26, 48);
+    color: white;
+
+}
+
+.sec-nav .sec-left {
+    display: flex;
+}
+
+.sec-nav a{
+    color: white;
+    text-decoration: none;
+}
+.sec-nav a:hover {
+    color: rgb(244, 59, 91);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.sec-nav .sec-right {
+    display: flex;
+}
+
+.sec-left p {
+    margin-inline: 16px;
+}
+
+.sec-right p {
+    margin-inline: 16px;
+}
+
+.main img {
+    width: 100%;
+}
+
+.container h2 {
+    padding: 22px;
+}
+
+.container .card {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.card img {
+    width: 17%;
+    margin-inline: 15px;
+    border-radius: 2px;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 44px;
+}
+
+.premiere {
+    background-color: rgba(42, 42, 68);
+    color: white;
+    padding: 33px;
+    margin-top: 44px;
+}
+.premiere .new{
+            width: 4%;
+            
+
+}
+
+.container h2 {
+    margin-right: 900px;
+}
+
+.container .card {
+    margin-top: 11px;
+}
+
+.footer {
+    background-color: rgb(48, 48, 48);
+    margin-top: 45PX;
+}
+.footer h1 {
+    display: flex;
+    
+}
+  
+h1:before,
+h1:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid grey;
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+
+.footer img {
+    width: 15%;
+    
+}
+
+.footer .icon {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+
+}
+
+.icon i {
+    margin-inline: 12px;
+    font-size: 25px;
+    color: grey;
+}
+
+.icon i:hover{
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
